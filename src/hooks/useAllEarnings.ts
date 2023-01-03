@@ -12,7 +12,7 @@ const useAllEarnings = () => {
   const { fastRefresh } = useRefresh()
 
   useEffect(() => {
-    const fetchAllBalances = async () => {
+    const fetchAllBalances = async () => monkey{
       const calls = farmsConfig.map((farm) => ({
         address: getMasterChefAddress(),
         name: 'pendingSword',
